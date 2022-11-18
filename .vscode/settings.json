@@ -1,0 +1,17 @@
+{
+    "npm.packageManager": "pnpm",
+    "eslint.enable": true,
+    "prettier.enable": true,
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    }
+}

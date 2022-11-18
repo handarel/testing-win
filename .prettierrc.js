@@ -1,0 +1,23 @@
+/** @type {import('prettier').Config} */
+module.exports = {
+  plugins: ['prettier-plugin-organize-attributes'],
+  printWidth: 80,
+  tabWidth: 2,
+  useTabs: false,
+  semi: true,
+  singleQuote: true,
+  quoteProps: 'consistent',
+  jsxSingleQuote: true,
+  trailingComma: 'all',
+  bracketSpacing: true,
+  bracketSameLine: true,
+  arrowParens: 'always',
+  proseWrap: 'preserve',
+  htmlWhitespaceSensitivity: 'strict',
+  vueIndentScriptAndStyle: true,
+  endOfLine: 'auto',
+  embeddedLanguageFormatting: 'off',
+  singleAttributePerLine: false,
+  attributeGroups: ['^(id|name)$', '^class$', '$DEFAULT'],
+  attributeSort: 'ASC',
+}
